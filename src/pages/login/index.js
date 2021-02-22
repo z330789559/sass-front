@@ -22,7 +22,7 @@ export const schema = {
         html: `
           <h6 class="login-title">
             <img src="/static/images/logo_grey.png" />
-            <p>Ovine 管理后台系统</p>
+            <p>遇服区块链服务平台</p>
           </h6>
         `,
       },
@@ -34,7 +34,7 @@ export const schema = {
   preset: {
     apis: {
       login: {
-        url: 'POST ovapi/user/login',
+        url: 'POST user/login',
         onError: () => {
           publish(msgKeys.updateAuthLoginCode, '')
         },

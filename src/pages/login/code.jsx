@@ -25,5 +25,6 @@ export default () => {
     subscribe(msgKeys.updateAuthLoginCode, updateCode)
   }, [])
 
-  return <img className="code-img" alt="验证码" src={`${src}?${key}`} onClick={updateCode} />
+  return <img role='presentation'
+    className="code-img" alt="验证码" src={`${src}?${key}`} onMouseUp={updateCode} />
 }

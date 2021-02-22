@@ -19,7 +19,7 @@ OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
 PERFORMANCE OF THIS SOFTWARE.
 ***************************************************************************** */
 
-/** @license amis v1.1.0
+/** @license amis v1.1.4
  *
  * Copyright Baidu
  *

@@ -22,15 +22,22 @@ export const request = new Request()
 
 // 请求准备阶段 回调
 request.onPreRequest = (option) => {
-  option.mock = true // 全局控制是否开启 mock， 必须在 ovine cli --mock 选项开启的情况下，才有效
+  option.mock = false // 全局控制是否开启 mock， 必须在 ovine cli --mock 选项开启的情况下，才有效
   return option
 }
 
 // 请求发送前 回调
 request.onRequest = (option) => {
+  console.log(option) //
   const { key, token } = getStore(storeKeys.auth) || {}
   const { actionAddr } = option
-
+// if(option.method!=='GET' && option.method!=='HEAD'&& option.method!=='OPTION'){
+//   if (option.mappingData&& Object.keys(option.mappingData).length >0){
+//     option.body =JSON.stringify(option.data)
+//     option.data=option.mappingData 
+//   }
+// }
+console.log('-------',option) 
   // 开启携带 cookies 信息
   option.fetchOptions.credentials = 'include'
 

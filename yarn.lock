@@ -1523,10 +1523,69 @@ amis@1.1.0:
     uncontrollable "7.0.2"
     video-react "0.14.1"
 
+amis@^1.1.4:
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/amis/-/amis-1.1.4.tgz#27261ba572ff926ad94a5ed7df94531f598b05d3"
+  integrity sha512-DDFuuiYwioAWm4it3Vztwu+ZqbEz90YcGqPJniKfNruc4EtSKtiP6242qsy/K25ujDjICNZfHBA+KwZ6hylbog==
+  dependencies:
+    ansi-to-react "^6.1.4"
+    async "2.6.0"
+    attr-accept "2.2.2"
+    blueimp-canvastoblob "2.1.0"
+    classnames "2.2.5"
+    dom-helpers "^3.3.1"
+    downshift "3.1.4"
+    echarts "5.0.0"
+    echarts-stat "^1.2.0"
+    exceljs "^4.2.0"
+    file-saver "^2.0.2"
+    flv.js "1.5.0"
+    froala-editor "2.9.6"
+    hls.js "0.12.2"
+    hoist-non-react-statics "3.3.0"
+    immutability-helper "^3.1.1"
+    jquery "^3.2.1"
+    keycode "^2.1.9"
+    lodash "^4.17.15"
+    match-sorter "2.2.1"
+    mobx "^4.5.0"
+    mobx-react "^6.1.4"
+    mobx-state-tree "^3.7.0"
+    moment "^2.19.3"
+    monaco-editor "0.21.2"
+    papaparse "^5.3.0"
+    prop-types "^15.6.1"
+    qrcode.react "^0.8.0"
+    qs "6.5.1"
+    rc-input-number "6.1.1"
+    react "^16.8.6"
+    react-color "2.13.8"
+    react-cropper "1.0.1"
+    react-datetime "2.16.2"
+    react-dom "^16.8.6"
+    react-dropzone "11.2.4"
+    react-input-range "1.3.0"
+    react-json-tree "0.13.0"
+    react-overlays "0.8.3"
+    react-textarea-autosize "5.1.0"
+    react-transition-group "2.9.0"
+    react-visibility-sensor "3.11.0"
+    setimmediate "1.0.5"
+    sortablejs "1.10.0"
+    tinymce "5.6.2"
+    tslib "^1.10.0"
+    uncontrollable "7.0.2"
+    video-react "0.14.1"
+
 animate.css@^3.7.2:
   version "3.7.2"
   resolved "https://registry.yarnpkg.com/animate.css/-/animate.css-3.7.2.tgz#e73e0d50e92cb1cfef1597d9b38a9481020e08ea"
   integrity sha512-0bE8zYo7C0KvgOYrSVfrzkbYk6IOTVPNqkiHg2cbyF4Pq/PXzilz4BRWA3hwEUBoMp5VBgrC29lQIZyhRWdBTw==
+
+anser@^1.4.1:
+  version "1.4.10"
+  resolved "https://registry.yarnpkg.com/anser/-/anser-1.4.10.tgz#befa3eddf282684bd03b63dcda3927aef8c2e35b"
+  integrity sha512-hCv9AqTQ8ycjpSd3upOJd7vFwW1JaoYQ7tpham03GJ1ca8/65rqn0RpaWpItOAd6ylW9wAw6luXYPJIyPFVOww==
 
 ansi-colors@^3.0.0:
   version "3.2.4"
@@ -1593,6 +1652,14 @@ ansi-styles@^4.0.0, ansi-styles@^4.1.0:
   integrity sha512-zbB9rCJAT1rbjiVDb2hqKFHNYLxgtk8NURxZ3IZwD3F6NtxbXZQCnnSi1Lkx+IDohdPlFp222wVALIheZJQSEg==
   dependencies:
     color-convert "^2.0.1"
+
+ansi-to-react@^6.1.4:
+  version "6.1.4"
+  resolved "https://registry.yarnpkg.com/ansi-to-react/-/ansi-to-react-6.1.4.tgz#689180945525de037871e20553117fd575b5950c"
+  integrity sha512-joHWPwbpARgvn7NTUCVJqi8pOJ//MWdPFrMY/fsBRGhHhfwKvro7P7iBeb/o8Fb29uDI8x+m6aD6h/GXnY3UIg==
+  dependencies:
+    anser "^1.4.1"
+    escape-carriage "^1.3.0"
 
 anymatch@^2.0.0:
   version "2.0.0"
@@ -4029,6 +4096,19 @@ duplexify@^3.4.2, duplexify@^3.6.0:
     readable-stream "^2.0.0"
     stream-shift "^1.0.0"
 
+echarts-stat@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/echarts-stat/-/echarts-stat-1.2.0.tgz#d1e7a05d1827724c5cde81f76ee1d75a901746a2"
+  integrity sha512-zLd7Kgs+tuTSeaK0VQEMNmnMivEkhvHIk1gpBtLzpRerfcIQ+Bd5XudOMmtwpaTc1WDZbA7d1V//iiBccR46Qg==
+
+echarts@5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/echarts/-/echarts-5.0.0.tgz#66ec0ea47e3c93b2aadfbb2d719869932ad13ce0"
+  integrity sha512-6SDcJbLVOcfQyjPg+spNU1+JVrkU1B9fzUa5tpbP/mMNUPyigCOJwcEIQAJSbp9jt5UP3EXvQR0vtYXIo9AjyA==
+  dependencies:
+    tslib "1.10.0"
+    zrender "5.0.1"
+
 echarts@^5.0.0:
   version "5.0.2"
   resolved "https://registry.yarnpkg.com/echarts/-/echarts-5.0.2.tgz#1726d17a57cf05d62cd0567b4325e1201a56baf6"
@@ -4207,6 +4287,11 @@ escalade@^3.1.1:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/escalade/-/escalade-3.1.1.tgz#d8cfdc7000965c5a0174b4a82eaa5c0552742e40"
   integrity sha512-k0er2gUkLf8O0zKJiAhmkTnJlTvINGv7ygDNPbeIsX/TJjGJZHuh9B2UxbsaEkmlEo9MfhrSzmhIlhRlI2GXnw==
+
+escape-carriage@^1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/escape-carriage/-/escape-carriage-1.3.0.tgz#71006b2d4da8cb6828686addafcb094239c742f3"
+  integrity sha512-ATWi5MD8QlAGQOeMgI8zTp671BG8aKvAC0M7yenlxU4CRLGO/sKthxVUyjiOFKjHdIo+6dZZUNFgHFeVEaKfGQ==
 
 escape-html@~1.0.3:
   version "1.0.3"
@@ -8134,10 +8219,28 @@ react-cropper@1.0.0:
     cropperjs v1.0.0-rc.3
     prop-types "^15.5.8"
 
+react-cropper@1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/react-cropper/-/react-cropper-1.0.1.tgz#6e5595abb8576088ab3e51ecfdcfe5f865d0340f"
+  integrity sha512-DfSf7j9qMakVnt9TxfVu/iDv01CmgyD4q8UJ1b/IU38cPavLvLmcsdFUKFGTmEZ3efMOJVBnV/yD/0cmxO3cug==
+  dependencies:
+    cropperjs v1.0.0-rc.3
+    prop-types "^15.5.8"
+
 react-datetime@2.16.0:
   version "2.16.0"
   resolved "https://registry.yarnpkg.com/react-datetime/-/react-datetime-2.16.0.tgz#da02c68e1817b7ce66144e688090d111b4e9b6e6"
   integrity sha512-9loyehO/LKaln15uevEKysQNRhyqqfSyr5Fbv3TcLTFwX47R/dG72GQpvXCRw7v5WJ9xDpbOJy4MxFt76gITwQ==
+  dependencies:
+    create-react-class "^15.5.2"
+    object-assign "^3.0.0"
+    prop-types "^15.5.7"
+    react-onclickoutside "^6.5.0"
+
+react-datetime@2.16.2:
+  version "2.16.2"
+  resolved "https://registry.yarnpkg.com/react-datetime/-/react-datetime-2.16.2.tgz#d5d41fe3f6f3fa8fa1b068f2fae75cec25e1bb39"
+  integrity sha512-QjQIixhmsbAQZSe2nlliTWAqdmckov3+rEL/s/uxw9LcM/V7vaFX0DIVRHksi1IsIqUG2AgM/4EX+aMZwXMMGg==
   dependencies:
     create-react-class "^15.5.2"
     object-assign "^3.0.0"
@@ -8224,6 +8327,14 @@ react-input-range@1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/react-input-range/-/react-input-range-1.2.1.tgz#10ff5fc1ec6ab9d95e15cddebe6f6879db2c3386"
   integrity sha1-EP9fwexqudleFc3evm9oedssM4Y=
+  dependencies:
+    autobind-decorator "^1.3.4"
+    prop-types "^15.5.8"
+
+react-input-range@1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/react-input-range/-/react-input-range-1.3.0.tgz#f96d001631ab817417f1e26d8f9f9684b4827f59"
+  integrity sha1-+W0AFjGrgXQX8eJtj5+WhLSCf1k=
   dependencies:
     autobind-decorator "^1.3.4"
     prop-types "^15.5.8"
@@ -9637,6 +9748,11 @@ tinymce@5.4.2:
   resolved "https://registry.yarnpkg.com/tinymce/-/tinymce-5.4.2.tgz#a1df417ea7e85697c2932269f7f93fbef30d4502"
   integrity sha512-MRquvKxI28AiSn2ikypgJFD7LH4mQZLtgFn+yROF1bTFp92MdlLeGBrI38/O5mej3cvz27g3Pgr+3MShepbJ+w==
 
+tinymce@5.6.2:
+  version "5.6.2"
+  resolved "https://registry.yarnpkg.com/tinymce/-/tinymce-5.6.2.tgz#4c20c22e328c5d0baab204928dbc2b0ecbed18b4"
+  integrity sha512-z7zvM5seOPiW86/vqf08kStwW5Zs5U9oQfuqh2rTj4jEcT2QzxT0v72i2zw3W6rbTLldkAej6edFZphj5ee5zg==
+
 tmp@^0.0.33:
   version "0.0.33"
   resolved "https://registry.yarnpkg.com/tmp/-/tmp-0.0.33.tgz#6d34335889768d21b2bcda0aa277ced3b1bfadf9"
@@ -9743,6 +9859,11 @@ tsconfig-paths@^3.9.0:
     json5 "^1.0.1"
     minimist "^1.2.0"
     strip-bom "^3.0.0"
+
+tslib@1.10.0:
+  version "1.10.0"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.10.0.tgz#c3c19f95973fb0a62973fb09d90d961ee43e5c8a"
+  integrity sha512-qOebF53frne81cf0S9B41ByenJ3/IuH8yJKngAX35CmiZySA0khhkovshKK+jGCaMnVomla7gVlIcc3EvKPbTQ==
 
 tslib@2.0.3:
   version "2.0.3"
@@ -10430,6 +10551,13 @@ zip-stream@^4.0.4:
     archiver-utils "^2.1.0"
     compress-commons "^4.0.2"
     readable-stream "^3.6.0"
+
+zrender@5.0.1:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/zrender/-/zrender-5.0.1.tgz#cc377136a9d00d0a177ca7f65c32aed2901928da"
+  integrity sha512-i8FNCKAKfF0EfZFJ6w2p30umBrCyy481/PePFQqPdtNgCl5Hp5z7/dovqb7soEoFkhNvhjJ/J4W9zFALeae6yA==
+  dependencies:
+    tslib "1.10.0"
 
 zrender@5.0.4:
   version "5.0.4"

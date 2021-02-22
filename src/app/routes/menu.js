@@ -18,11 +18,11 @@ export const menuRoutes = {
       exact: true,
       pathToComponent: 'dashboard',
     },
-    {
-      label: '页面编辑',
-      icon: 'fa fa-coffee',
-      nodePath: 'start',
-    },
+    // {
+    //   label: '页面编辑',
+    //   icon: 'fa fa-coffee',
+    //   nodePath: 'start',
+    // },
     {
       label: 'DEMO应用',
       icon: 'fa fa-paint-brush',
@@ -39,10 +39,6 @@ export const menuRoutes = {
         {
           label: '测试',
           nodePath: 'test', // 对应 src/pages/application/doc
-        },
-        {
-          label: '图标',
-          nodePath: 'chart', // 对应 src/pages/application/doc
         },
         {
           label: '表格',

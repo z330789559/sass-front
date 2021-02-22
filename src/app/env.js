@@ -33,9 +33,10 @@ export const env = {
   },
   // 生产环境
   production: {
-    isProd: true, // 标示是生产环境
+    disableLimit: true,
+    isProd: false, // 标示是生产环境
     domains: {
-      api: 'http://121.89.194.107:8081/rtapi',
+      api: 'http://sass.yffrom.com/rtapi',
     },
   },
 }

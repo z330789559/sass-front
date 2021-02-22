@@ -36,7 +36,7 @@ module.exports = {
     'no-param-reassign': OFF,
     'arrow-parens': [ERROR, 'always'],
     'no-use-before-define': ['error', { functions: false }],
-    'no-console': ERROR,
+    'no-console': WARNING,
     'react/jsx-closing-bracket-location': OFF, // Conflicts with Prettier.
     'react/jsx-filename-extension': [ERROR, { extensions: ['.jsx', '.tsx'] }],
     'react/jsx-one-expression-per-line': OFF,
