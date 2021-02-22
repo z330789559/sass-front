@@ -34,7 +34,7 @@ export const schema = {
   preset: {
     apis: {
       login: {
-        url: 'POST user/login',
+        url: 'POST rtapi/user/login',
         onError: () => {
           publish(msgKeys.updateAuthLoginCode, '')
         },

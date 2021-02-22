@@ -12,7 +12,7 @@ const prest = {
   },
   apis: {
     chart: {
-      url: 'GET stat/data',
+      url: 'GET rtapi/stat/data',
       cache: 500,
       limits: '$page',
     },

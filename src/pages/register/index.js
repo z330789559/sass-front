@@ -27,7 +27,7 @@ export const schema = {
   preset: {
     apis: {
       register: {
-        url: 'POST user/demo_register',
+        url: 'POST rtapi/user/demo_register',
         onSuccess: (source) => {
           const { code, msg, data } = source
           if (code === 0) {

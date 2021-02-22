@@ -25,23 +25,23 @@ export default {
   // 页面需要用到的 api定义
   apis: {
     list: {
-      url: 'GET system/user/item',
+      url: 'GET rtapi/system/user/item',
       limits: '$page',
     },
     add: {
-      url: 'POST system/user/item',
+      url: 'POST rtapi/system/user/item',
       limits: 'addItem',
     },
     edit: {
-      url: 'PUT system/user/item/$id',
+      url: 'PUT rtapi/system/user/item/$id',
       limits: 'editItem',
     },
     del: {
-      url: 'DELETE system/user/item/$id',
+      url: 'DELETE rtapi/system/user/item/$id',
       limits: 'delItem',
     },
     treeChart: {
-      url: 'GET system/user/tree',
+      url: 'GET rtapi/system/user/tree',
       limits: 'viewTree',
     },
   },

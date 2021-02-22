@@ -36,27 +36,27 @@ export default {
   // 页面需要用到的 api定义
   apis: {
     list: {
-      url: 'GET system/role/item',
+      url: 'GET rtapi/system/role/item',
       limits: '$page',
     },
     addRole: {
-      url: 'POST system/role/item',
+      url: 'POST rtapi/system/role/item',
       limits: 'addRole',
     },
     editRole: {
-      url: 'PUT ystem/role/item/$id',
+      url: 'PUT rtapi/ystem/role/item/$id',
       limits: 'editRole',
     },
     delRole: {
-      url: 'DELETE system/role/item/$id',
+      url: 'DELETE rtapi/system/role/item/$id',
       limits: 'delRole',
     },
     getLimit: {
-      url: 'GET system/role/item/$id/limit',
+      url: 'GET rtapi/system/role/item/$id/limit',
       limits: 'editLimit',
     },
     editLimit: {
-      url: 'PUT system/role/item/$id/limit',
+      url: 'PUT rtapi/system/role/item/$id/limit',
       limits: 'editLimit',
       onPreRequest: (source) => {
         const { id, authApi: api = '', authLimit: limit = '' } = source.data
@@ -65,12 +65,12 @@ export default {
       },
     },
     listMember: {
-      url: 'GET system/user/item',
+      url: 'GET rtapi/system/user/item',
       limits: 'listMember',
       mock: true,
     },
     editMember: {
-      url: 'PUT system/role/member',
+      url: 'PUT rtapi/system/role/member',
       limits: 'editMember',
       mock: true,
       onPreRequest: (source) => {

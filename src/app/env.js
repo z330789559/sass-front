@@ -10,14 +10,14 @@ export const env = {
   default: {
     disableLimit: true,
     domains: {
-      api: 'http://121.89.194.107:8081/rtapi', // ovine api 地址
+      api: 'http://121.89.194.107:8081', // ovine api 地址
     },
   },
   // 本地开发
   localhost: {
     disableLimit: true,
     domains: {
-      api: 'http://121.89.194.107:8081/rtapi',
+      api: 'http://121.89.194.107:8081',
     },
     // 日志配置
     logger: {
@@ -28,7 +28,7 @@ export const env = {
   // 测试环境
   staging: {
     domains: {
-      api: 'http://121.89.194.107:8081/rtapi',
+      api: 'http://121.89.194.107:8081',
     },
   },
   // 生产环境
@@ -36,7 +36,7 @@ export const env = {
     disableLimit: true,
     isProd: false, // 标示是生产环境
     domains: {
-      api: 'http://sass.yffrom.com/rtapi',
+      api: 'http://sass.yffrom.com',
     },
   },
 }

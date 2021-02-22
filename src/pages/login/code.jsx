@@ -11,7 +11,7 @@ import { msgKeys } from '~/app/constants'
 import { request } from '~/app/request'
 
 const { url: src } = request.getUrlByOption({
-  url: 'user/code',
+  url: 'rtapi/user/code',
 })
 
 export default () => {
